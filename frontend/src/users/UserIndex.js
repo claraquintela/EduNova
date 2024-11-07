@@ -347,7 +347,7 @@ export default function UserIndex({ t }) {
                         className="w-full px-2 py-1 text-black rounded"
                       >
                         <option value="admin">Admin</option>
-                        <option value="teacher">Teacher</option>
+                        <option value="student">Student</option>
                         <option value="subscriber">Subscriber</option>
                       </select>
                     ) : (
