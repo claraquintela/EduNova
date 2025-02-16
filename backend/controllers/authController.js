@@ -155,6 +155,9 @@ const authController = {
         },
         config.jwt.secret
       );
+      // Adicione o console.log aqui
+      console.log("JWT Secret:", config.jwt.secret);
+      console.log("Generated Token:", token);
 
       // Store token in Redis
       await redisClient.set(`auth_token_${user.id}`, token);

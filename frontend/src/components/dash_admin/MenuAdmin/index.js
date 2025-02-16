@@ -124,15 +124,22 @@ export default function MenuAdmin({ t }) {
               <div className="hover:text-gray-100 cursor-pointer">
                 {t("dash_allCourses")}
               </div>
-              <NavLink
-                to={"courses/create"}
-                className="hover:text-gray-100 cursor-pointer"
-              >
-                {t("dash_createCourse")}
-              </NavLink>
-              <div className="hover:text-gray-100 cursor-pointer">
-                {t("dash_createCategory")}
-              </div>
+              <p>
+                <NavLink
+                  to={"courses/create"}
+                  className="hover:text-gray-100 cursor-pointer"
+                >
+                  {t("dash_createCourse")}
+                </NavLink>
+              </p>
+              <p>
+                <NavLink
+                  className="hover:text-gray-100 cursor-pointer"
+                  to={"courses/category"}
+                >
+                  {t("dash_createCategory")}
+                </NavLink>
+              </p>
             </div>
           )}
         </nav>

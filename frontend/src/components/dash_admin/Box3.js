@@ -25,8 +25,8 @@ export default function Box3({ t, language }) {
         </div>
 
         <div className="mx-5">
-          <h4 className="text-2xl font-semibold text-gray-700">215,542</h4>
-          <div className="text-gray-500">Available Products</div>
+          <h4 className="text-2xl font-semibold text-gray-700">24</h4>
+          <div className="text-gray-500">Available Courses</div>
         </div>
       </div>
     </div>

@@ -139,7 +139,7 @@ CREATE TABLE IF NOT EXISTS coupon_usage (
 CREATE TABLE IF NOT EXISTS notifications (
     id SERIAL PRIMARY KEY,
     user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
-    message TEXT NOT NULL,
+    message TEXT NOT NULL,na
     is_read BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP DEFAULT NOW()
 );
